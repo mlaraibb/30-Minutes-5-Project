@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#btn{
+    color: black;
+    padding: 20px;
+    border: none;
+    background-color: palevioletred;
+    border: 2px solid gold;
+    cursor: pointer;
+    border-radius: 5px 5px;
+}

@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgoldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+button{
+    color: palevioletred;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    transition: transform 0.1s linear;
+}
+
+button:focus{
+    outline:none
+}
+button:active{
+    box-shadow: 0;
+    transform: translate(2px, 2px);
+}
